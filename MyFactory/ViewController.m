@@ -7,21 +7,34 @@
 //
 
 #import "ViewController.h"
+#import "VersionOne.h"
+#import "VersionTwo.h"
 
 @interface ViewController ()
 
+
+  @property (weak, nonatomic) IBOutlet UITextView *textView;
+
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    ClientType ourClientType = hipster;     //  hipster, swaggy, business, steamPunk_comingSoon
+    FormFactor ourClientsDeviceSize = smallForm;     // smallForm, largeForm, watch, tba
+
+
+    VersionTwo *ourProgram = [VersionTwo new];  // VersionOne, VersonTwo
+
+    NSAttributedString *ourStringForDisplay = [ourProgram returnTextToPresentToClientType:ourClientType userDeviceSize:ourClientsDeviceSize];
+    self.textView.attributedText = ourStringForDisplay;
+
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

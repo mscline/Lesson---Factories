@@ -14,6 +14,15 @@
 		AE1989901A6021F100AAA938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE19898F1A6021F100AAA938 /* Images.xcassets */; };
 		AE1989931A6021F100AAA938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE1989911A6021F100AAA938 /* LaunchScreen.xib */; };
 		AE19899F1A6021F100AAA938 /* MyFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE19899E1A6021F100AAA938 /* MyFactoryTests.m */; };
+		AE1989AA1A6022DA00AAA938 /* MCAlertWithTextEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1989A91A6022DA00AAA938 /* MCAlertWithTextEntry.m */; };
+		AE1989AD1A6022E800AAA938 /* MCBuildAttributedText.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1989AC1A6022E800AAA938 /* MCBuildAttributedText.m */; };
+		AE9151C51A6456DD00829931 /* SwaggyText.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9151C41A6456DD00829931 /* SwaggyText.m */; };
+		AE9151C81A6456ED00829931 /* BusText.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9151C71A6456ED00829931 /* BusText.m */; };
+		AE9151CB1A64571200829931 /* HipText.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9151CA1A64571200829931 /* HipText.m */; };
+		AE9151CE1A64578F00829931 /* MyTextFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9151CD1A64578F00829931 /* MyTextFactory.m */; };
+		AE9151D11A6457B100829931 /* TextBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9151D01A6457B100829931 /* TextBuilder.m */; };
+		AEA16E651A641C1100B979CD /* VersionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA16E641A641C1100B979CD /* VersionOne.m */; };
+		AEA16E681A641C2F00B979CD /* VersionTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA16E671A641C2F00B979CD /* VersionTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,25 @@
 		AE1989981A6021F100AAA938 /* MyFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE19899D1A6021F100AAA938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE19899E1A6021F100AAA938 /* MyFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFactoryTests.m; sourceTree = "<group>"; };
+		AE1989A81A6022DA00AAA938 /* MCAlertWithTextEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAlertWithTextEntry.h; sourceTree = "<group>"; };
+		AE1989A91A6022DA00AAA938 /* MCAlertWithTextEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAlertWithTextEntry.m; sourceTree = "<group>"; };
+		AE1989AB1A6022E800AAA938 /* MCBuildAttributedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBuildAttributedText.h; sourceTree = "<group>"; };
+		AE1989AC1A6022E800AAA938 /* MCBuildAttributedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBuildAttributedText.m; sourceTree = "<group>"; };
+		AE9151C31A6456DD00829931 /* SwaggyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwaggyText.h; sourceTree = "<group>"; };
+		AE9151C41A6456DD00829931 /* SwaggyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwaggyText.m; sourceTree = "<group>"; };
+		AE9151C61A6456ED00829931 /* BusText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusText.h; sourceTree = "<group>"; };
+		AE9151C71A6456ED00829931 /* BusText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusText.m; sourceTree = "<group>"; };
+		AE9151C91A64571200829931 /* HipText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HipText.h; sourceTree = "<group>"; };
+		AE9151CA1A64571200829931 /* HipText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HipText.m; sourceTree = "<group>"; };
+		AE9151CC1A64578F00829931 /* MyTextFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextFactory.h; sourceTree = "<group>"; };
+		AE9151CD1A64578F00829931 /* MyTextFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextFactory.m; sourceTree = "<group>"; };
+		AE9151CF1A6457B100829931 /* TextBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBuilder.h; sourceTree = "<group>"; };
+		AE9151D01A6457B100829931 /* TextBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBuilder.m; sourceTree = "<group>"; };
+		AEA16E631A641C1100B979CD /* VersionOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VersionOne.h; path = ../VersionOne.h; sourceTree = "<group>"; };
+		AEA16E641A641C1100B979CD /* VersionOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VersionOne.m; path = ../VersionOne.m; sourceTree = "<group>"; };
+		AEA16E661A641C2F00B979CD /* VersionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionTwo.h; sourceTree = "<group>"; };
+		AEA16E671A641C2F00B979CD /* VersionTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionTwo.m; sourceTree = "<group>"; };
+		AEA16E6E1A6420A100B979CD /* TypeDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeDefs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +114,11 @@
 				AE1989891A6021F100AAA938 /* ViewController.h */,
 				AE19898A1A6021F100AAA938 /* ViewController.m */,
 				AE19898C1A6021F100AAA938 /* Main.storyboard */,
-				AE19898F1A6021F100AAA938 /* Images.xcassets */,
-				AE1989911A6021F100AAA938 /* LaunchScreen.xib */,
+				AEA16E6E1A6420A100B979CD /* TypeDefs.h */,
+				AEA16E601A641BA700B979CD /* Version1 */,
+				AEA16E611A641BB900B979CD /* Version2 */,
+				AEA16E6C1A641C4D00B979CD /* TextLayout */,
+				AEA16E6D1A641CAF00B979CD /* SortRoutines */,
 				AE1989821A6021F100AAA938 /* Supporting Files */,
 			);
 			path = MyFactory;
@@ -96,6 +127,10 @@
 		AE1989821A6021F100AAA938 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE1989A81A6022DA00AAA938 /* MCAlertWithTextEntry.h */,
+				AE1989A91A6022DA00AAA938 /* MCAlertWithTextEntry.m */,
+				AE19898F1A6021F100AAA938 /* Images.xcassets */,
+				AE1989911A6021F100AAA938 /* LaunchScreen.xib */,
 				AE1989831A6021F100AAA938 /* Info.plist */,
 				AE1989841A6021F100AAA938 /* main.m */,
 			);
@@ -117,6 +152,58 @@
 				AE19899D1A6021F100AAA938 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9151D21A6457F000829931 /* Text Builders - Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				AE9151C31A6456DD00829931 /* SwaggyText.h */,
+				AE9151C41A6456DD00829931 /* SwaggyText.m */,
+				AE9151C61A6456ED00829931 /* BusText.h */,
+				AE9151C71A6456ED00829931 /* BusText.m */,
+				AE9151C91A64571200829931 /* HipText.h */,
+				AE9151CA1A64571200829931 /* HipText.m */,
+			);
+			name = "Text Builders - Subclasses";
+			sourceTree = "<group>";
+		};
+		AEA16E601A641BA700B979CD /* Version1 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA16E631A641C1100B979CD /* VersionOne.h */,
+				AEA16E641A641C1100B979CD /* VersionOne.m */,
+			);
+			name = Version1;
+			sourceTree = "<group>";
+		};
+		AEA16E611A641BB900B979CD /* Version2 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA16E661A641C2F00B979CD /* VersionTwo.h */,
+				AEA16E671A641C2F00B979CD /* VersionTwo.m */,
+				AE9151CC1A64578F00829931 /* MyTextFactory.h */,
+				AE9151CD1A64578F00829931 /* MyTextFactory.m */,
+				AE9151CF1A6457B100829931 /* TextBuilder.h */,
+				AE9151D01A6457B100829931 /* TextBuilder.m */,
+				AE9151D21A6457F000829931 /* Text Builders - Subclasses */,
+			);
+			name = Version2;
+			sourceTree = "<group>";
+		};
+		AEA16E6C1A641C4D00B979CD /* TextLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AE1989AB1A6022E800AAA938 /* MCBuildAttributedText.h */,
+				AE1989AC1A6022E800AAA938 /* MCBuildAttributedText.m */,
+			);
+			name = TextLayout;
+			sourceTree = "<group>";
+		};
+		AEA16E6D1A641CAF00B979CD /* SortRoutines */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SortRoutines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1989AA1A6022DA00AAA938 /* MCAlertWithTextEntry.m in Sources */,
+				AE9151C81A6456ED00829931 /* BusText.m in Sources */,
+				AEA16E681A641C2F00B979CD /* VersionTwo.m in Sources */,
 				AE19898B1A6021F100AAA938 /* ViewController.m in Sources */,
 				AE1989881A6021F100AAA938 /* AppDelegate.m in Sources */,
 				AE1989851A6021F100AAA938 /* main.m in Sources */,
+				AE9151C51A6456DD00829931 /* SwaggyText.m in Sources */,
+				AE1989AD1A6022E800AAA938 /* MCBuildAttributedText.m in Sources */,
+				AEA16E651A641C1100B979CD /* VersionOne.m in Sources */,
+				AE9151CE1A64578F00829931 /* MyTextFactory.m in Sources */,
+				AE9151CB1A64571200829931 /* HipText.m in Sources */,
+				AE9151D11A6457B100829931 /* TextBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +508,7 @@
 				AE1989A41A6021F100AAA938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE1989A51A6021F100AAA938 /* Build configuration list for PBXNativeTarget "MyFactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				AE1989A71A6021F100AAA938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
